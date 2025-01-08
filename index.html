@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Sidebar Header -->
+	 <div class="layout-container">
+    <header class="header">
+		<div class="header__content">
+			<h1>Ray's designs</h1>
+			<p>A clean, responsive portfolio showcasing design, development, and creativity with a focus on functionality and user experience.</p>
+			<nav class="menu">
+				<ul>
+					<li><a href="#projects" onclick="showSection('projects')">Projects</a></li>
+					<li><a href="#about" onclick="showSection('about')">About</a></li>
+					<li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+					<br>
+					<li><a href="#graphic-content" onclick="showSection('graphic-content')">Brand & Graphic Design</a></li>
+					<li><a href="#social-content" onclick="showSection('social-content')">Social Media Strategy</a></li>
+					<li><a href="#drone-content" onclick="showSection('drone-content')">Aerial Photography</a></li>
+					<li><a href="#motion-content" onclick="showSection('motion-content')">Dynamic Motion Graphics</a></li>
+					<li><a href="#coding-content" onclick="showSection('coding-content')">Web & Interactive Coding</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content" id="main-content">
+        <!-- Default Content: Projects Gallery -->
+        <div id="projects" class="content-section">
+			<div class="page-container">
+				<div class="project-gallery">
+				
+					<div class="project-item">
+						<a class="project-item__link" href="#social-content">
+							<div class="project-item__image">
+								<img src="https://i.postimg.cc/7YgqsHvz/e6f30bec.png" alt="Social"/>
+							</div>
+							<div class="project-overlay">
+								<div>
+									<h4>Facade</h4>
+									<p>Airport terminal</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="project-item">
+						<a class="project-item__link" href="#graphic-content">
+							<div class="project-item__image">
+								<img src="https://i.postimg.cc/0jPmsd5p/Golden_Port.png" alt="Graphic"/>
+							</div>
+							<div class="project-overlay">
+								<div>
+									<h4>Triangles</h4>
+									<p>Architectural design</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				
+					<div class="project-item">
+						<a class="project-item__link" href="#drone-content">
+							<div class="project-item__image">
+								<img src="https://i.postimg.cc/prxdsg6R/RemoteMediaFile_6553636_0_2021_06_01_16_53_28.jpg" alt="Drone"/>
+							</div>
+							<div class="project-overlay">
+								<div>
+									<h4>Number Nine</h4>
+									<p>Office building</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				
+					<div class="project-item">
+						<a class="project-item__link" href="#motion-content">
+							<div class="project-item__image">
+								<img src="https://i.postimg.cc/3RT7tQGZ/d88601b1-25ef-4395-af14-dfc1fccf55f3-rw-600.gif" alt="Looking Up"/>
+							</div>
+							<div class="project-overlay">
+								<div>
+									<h4>Looking Up</h4>
+									<p>Design viewpoints</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="project-item">
+						<a class="project-item__link" href="#coding-content">
+							<div class="project-item__image">
+								<img src="https://d1qmdf3vop2l07.cloudfront.net/fluttering-volcano.cloudvent.net/hash-store/0ca387c8e26b66cd0839fbe3f48d66c1.jpg" alt="Minimal" data-cms-original-src="/images/demo/portrait-03.jpg" />
+							</div>
+							<div class="project-overlay">
+								<div>
+									<h4>Minimal</h4>
+									<p>Architectural design</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+        </div>
+
+        <!-- About Content (Initially Hidden) -->
+        <div id="about" class="content-section" style="display: none;">
+			<div class="page-container">
+			<h2>About Me</h2>
+			<div class="divider-head"></div>
+			<div class="about-container">
+				<div class="left-column">
+					<img src="https://i.postimg.cc/0QkHsLgs/image03.png" alt="Raymond Kenny" class="profile-picture">
+				</div>
+				<div class="right-column">
+					<div class="bio-message">
+						<p>Hello, I'm Raymond Kenny, a passionate graphic designer who enjoys exploring diverse avenues of artistic expression. With a penchant for creativity, I continuously seek out new ways to bring unique ideas to life. Through my work, I strive to blend innovative design concepts with a touch of visual magic, aiming to captivate and inspire. Welcome to my portfolio, where you'll discover a collection of my artistic endeavors and witness the boundless possibilities of design.</p>
+						</br>
+						<p class="skills-title"><strong>SKILLED IN:</strong></p>
+						<p class="skills-list"><strong>After Effects, InDesign, Photoshop, Illustrator, Premier</strong></p><p class="skills-list"><strong> Canva, Figma, CSS, HTML5, & Javascript</strong></p>
+					</div>
+				</div>
+				</div>
+				<div class="experience">
+					<h3>Experience</h3>
+					<div class="content-box">
+					  <!-- Header Bar with Icons -->
+					  <div class="header-bar">
+						<div class="section" onclick="toggleExperienceDropdown('dropdown1', this)">
+						  <img src="https://i.postimg.cc/RVGxHK5J/FOXHILLS-LOGO-2013-CMYK.png" alt="Fox Hills" class="icon">
+						  <p class="text">Fox Hills Golf & Banquet</p>
+						  <p class="date">2023 - Present</p>
+						</div>
+						<div class="section" onclick="toggleExperienceDropdown('dropdown2', this)">
+						  <img src="https://i.postimg.cc/c1RSdPFm/spice-merchants-logo-new.png" alt="Spice Merchants" class="icon">
+						  <p class="text">Spice Merchants</p>
+						  <p class="date">2022 - 2024</p>
+						</div>
+						<div class="section" onclick="toggleExperienceDropdown('dropdown4', this)">
+						  <img src="https://i.postimg.cc/7hn8XT5c/Logo.png" alt="OU" class="icon">
+						  <p class="text">Oakland University</p>
+						  <p class="date">2018 - 2023</p>
+						</div>
+						<div class="section" onclick="toggleExperienceDropdown('dropdown3', this)">
+						  <img src="https://i.postimg.cc/CM6JRsmQ/Screen_Shot_2022-07-21_at_4.55.05_PM.png" alt="ICU" class="icon">
+						  <p class="text">Industrial Commercial Striping</p>
+						  <p class="date">2017 - 2018</p>
+						</div>
+					  </div>
+				
+					  <!-- Dropdown Content -->
+					  <div class="dropdown-container">
+						<div class="dropdown-content" id="dropdown1">
+						  <ul>
+							<li>Developed and executed flyer and menu designs, enhancing the visual appeal and branding of the center.</li>
+							<li>Managed social media graphics, contributing to an engaging online presence and customer interaction.</li>
+							<li>Demonstrated meticulous attention to detail in all aspects of maintenance, ensuring pristine facility conditions.</li>
+							<li>Conducted general repairs with a keen eye for design and aesthetics, maintaining the center's high standards.</li>
+						  </ul>
+						</div>
+						<div class="dropdown-content" id="dropdown2">
+						  <ul>
+							<li>Expertly captured product photography, showcasing items with captivating visuals that enhance brand appeal.</li>
+							<li>Creatively designed flyers and coupons, effectively promoting products and services while boosting customer engagement.</li>
+							<li>Managed and revitalized social media presence, driving user engagement through innovative content and strategic interactions.</li>
+							<li>Utilized advanced scheduling systems for strategic planning of marketing posts, ensuring optimal timing and audience reach.</li>
+						  </ul>
+						</div>
+						<div class="dropdown-content" id="dropdown3">
+						  <ul>
+							<li>Executed precise measurements and creative designs for parking lot striping, enhancing visual appeal and functionality.</li>
+							<li>Utilized artistic skills in painting parking lots, ensuring a neat and professional finish.</li>
+							<li>Installed street signs and bollards, incorporating design principles for optimal visibility and impact.</li>
+							<li>Demonstrated independence and problem-solving skills in correcting errors and maintaining high-quality standards.</li>
+						  </ul>
+						</div>
+						<div class="dropdown-content" id="dropdown4">
+						  <ul>
+							<li>Graduated Cum Laude with a Bachelor's Degree in Graphic Design, demonstrating high academic performance and a commitment to excellence in my field.</li>
+							<li>Completed a comprehensive range of courses in Graphic Design, including:
+							</br></br>
+								<P style="text-align: center; font-weight: bold;">Computer Animation | 
+								Digital Illustration | 
+								Graphic Design I - III | 
+								History and Theory of Design | 
+								Motion Graphics I - II | 
+								Thesis of Graphic Design | 
+								Typography | 
+								Web Design I - II | 
+								Web Development</P>
+								</br>
+							</li>
+							<li>This diverse academic background has provided me with a robust foundation in areas such as creative digital design, effective visual communication, and innovative thinking, preparing me to effectively contribute to dynamic design environments.</li>
+						  </ul>
+						</div>
+				
+					  </div>
+					</div>
+					
+				
+				  </div>
+			</div>
+			
+        	
+			
+		</div>
+
+        <!-- Contact Content (Initially Hidden) -->
+        <div id="contact" class="content-section" style="display: none;">
+			<div class="page-container">
+				<div class="contact-message">
+					<h2>How To Reach Me</h2>
+					<div class="divider-head"></div>
+					<p>You can either contact me via email or fill out this quick form. I would love to hear your inquiries or feedback about my work!</p>
+				</div>
+				<div class="dynamic-shadow">
+					<div class="contact-form">
+						<form id="contact-form" action="https://formspree.io/f/mayrpnzg" method="POST">
+							<input type="hidden" name="_subject" value="New submission from Portfolio Website!" />
+							<input type="text" name="_gotcha" style="display:none" />
+							
+							<label for="name">Name:</label>
+							<input type="text" id="name" name="name" required>
+						
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="_replyto" required>
+						
+							<label for="message">Feedback and inquiries:</label>
+							<textarea id="message" name="message" required></textarea>
+						
+							<button type="submit" class="submit-btn">Submit</button>
+						</form>
+					</div>
+				</div>
+				<div class="contact-icons">
+					<a href="mailto:raymondjkennyiii@gmail.com" class="email-icon" aria-label="Email me">
+						<img src="https://i.postimg.cc/nhZwsJw5/174857.png" alt="Email icon">
+					</a>
+					<a href="https://www.linkedin.com/in/raymond-kenny/" class="linkedin-icon" target="_blank" aria-label="Visit my LinkedIn">
+						<img src="https://i.postimg.cc/m2752DVC/174858.png" alt="LinkedIn icon">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		
+		<!-- Graphic Content (ADD CONTENT) -->
+		<div id="graphic-content" class="content-section" style="display: none;">
+			<div class="page-container">
+			<h2>Brand & Graphic Design</h2>
+			<div class="divider-head"></div>
+        	
+			<div class="two-column-layout" id="fox-hills-maps">
+				<div class="column text-column">
+					<h3>Fox Hills Course Maps</h3>
+					<p>
+						The Fox Hills course maps showcase the meticulous planning that goes into designing each course.
+						These maps were created to visually represent the layout, helping golfers navigate the course with ease.
+						Each map reflects the unique characteristics of the different courses, combining visual clarity and informative design.
+					</p>
+				</div>
+				<div class="column slideshow-column">
+					<!-- Map Slideshow -->
+					<div class="slideshow-container map-slideshow">
+						<div class="mySlidesMap slide">
+							<img src="https://i.postimg.cc/RhdtV6q2/Classic_Port.png" style="width:75%" class="lightbox-image" style="width:80%" data-fullsize="https://i.postimg.cc/RhdtV6q2/Classic_Port.png">
+							<div class="text"><p>Classic Course</p></div>
+						</div>
+						<div class="mySlidesMap slide">
+							<img src="https://i.postimg.cc/0jPmsd5p/Golden_Port.png" style="width:75%" class="lightbox-image" style="width:80%" data-fullsize="https://i.postimg.cc/0jPmsd5p/Golden_Port.png">
+							<div class="text"><p>Golden Course</p></div>
+						</div>
+						<div class="mySlidesMap slide">
+							<img src="https://i.postimg.cc/858MygqX/Strat_Port.png" style="width:75%" class="lightbox-image" style="width:80%" data-fullsize="https://i.postimg.cc/858MygqX/Strat_Port.png">
+							<div class="text"><p>Strategic Course</p></div>
+						</div>
+						<!-- Navigation Arrows -->
+						<a class="prev prev-map">&#10094;</a>
+						<a class="next next-map">&#10095;</a>
+					</div>
+				</div>
+			</div>
+			<div class="divider"></div>
+			
+			<div class="two-column-layout" id="coffee-bean-coaster">
+				<div class="column text-column">
+					<h3>Coffee Bean and Coaster</h3>
+					<p>
+						These designs for Coffee Bean and Coaster were created to elevate the brand's presence in its coffee shops.
+						The design approach was focused on creating a minimalist, cozy aesthetic that reflects the simplicity and warmth
+						of their beverages. Each piece showcases the company's personality while ensuring brand consistency across various mediums.
+					</p>
+				</div>
+				<div class="column slideshow-column">
+					<!-- Coffee Bean and Coaster Slideshow -->
+					<div class="slideshow-container coffee-slideshow">
+						<div class="mySlidesCoffee slide">
+							<img src="https://i.postimg.cc/76nRkzWx/3.png" style="width:75%" class="lightbox-image" style="width:80%" data-fullsize="https://i.postimg.cc/fRBnsS11/8b5cc596-817e-465e-b3d3-e4a47fddb6b3-rw-600.jpg">
+							<div class="text"><p>Coffee Bean Logos</p></div>
+						</div>
+						<div class="mySlidesCoffee slide">
+							<img src="https://i.postimg.cc/Vk5QCCwG/4.png" style="width:75%" class="lightbox-image" style="width:80%" data-fullsize="https://i.postimg.cc/KYH6kSGN/7f93a4db-43e5-465f-9707-de32c6b10913-rw-600.jpg">
+							<div class="text"><p>Coffee Bean Bags</p></div>
+						</div>
+						<div class="mySlidesCoffee slide">
+							<img src="https://i.postimg.cc/xC2Zh5gx/2.png" style="width:75%" class="lightbox-image" style="width:80%" data-fullsize="https://i.postimg.cc/3JFzjDrW/98b1e95e-03fa-41ee-86ef-71595d9ef1f8-rw-600.jpg">
+							<div class="text"><p>Coffee Bean Product</p></div>
+						</div>
+						<div class="mySlidesCoffee slide">
+							<img src="https://i.postimg.cc/02QBTbds/1.png" style="width:75%" class="lightbox-image" style="width:80%" data-fullsize="https://i.postimg.cc/ht462Phs/47b43d5b-06d4-47ed-a592-b8907674a21d-rw-600.jpg">
+							<div class="text"><p>Coffee Bean Merch</p></div>
+						</div>
+						<!-- Navigation Arrows -->
+						<a class="prev prev-coffee">&#10094;</a>
+						<a class="next next-coffee">&#10095;</a>
+					</div>
+				</div>
+			</div>
+			<div class="divider"></div>
+			
+			<div class="two-column-layout" id="fox-hills-menus">
+				<div class="column text-column">
+					<h3>Fox Hills Food Menus</h3>
+					<p>
+						The food menus for Fox Hills Golf and Banquet Center were designed with elegance and clarity in mind.
+						Each menu complements the upscale image of the venue, while providing an easy-to-read layout for guests.
+						The visual design focuses on clarity and structure, making the menu items highly accessible to a wide audience.
+					</p>
+				</div>
+				<div class="column slideshow-column">
+					<!-- Menu Slideshow -->
+					<div class="slideshow-container menu-slideshow">
+						<div class="mySlidesMenu slide">
+							<img src="https://i.postimg.cc/xdrPQkqR/menu-01.jpg" style="width:75%" class="lightbox-image" style="width:80%" data-fullsize="https://i.postimg.cc/xdrPQkqR/menu-01.jpg">
+							<div class="text"><p>Menu Page 1</p></div>
+						</div>
+						<div class="mySlidesMenu slide">
+							<img src="https://i.postimg.cc/g0vH2YZP/menu-02.jpg" style="width:75%" class="lightbox-image" style="width:80%" data-fullsize="https://i.postimg.cc/g0vH2YZP/menu-02.jpg">
+							<div class="text"><p>Menu Page 2</p></div>
+						</div>
+						<!-- Navigation Arrows -->
+						<a class="prev prev-menu">&#10094;</a>
+						<a class="next next-menu">&#10095;</a>
+					</div>
+				</div>
+			</div>
+			
+
+			</div>
+		</div>
+
+		<!-- Social Content (good) -->
+		<div id="social-content" class="content-section" style="display: none;">
+			<div class="page-container">
+			<h2>Social Media Marketing</h2>
+			<div class="divider-head"></div>
+	
+	
+		<!-- Spice Merchants Section -->
+		<!-- Spice Merchants Section -->
+<div class="three-column-layout" id="spice">
+    <div class="column text-column">
+        <h3>Spice Merchants of Northville</h3>
+        <p>I managed social media campaigns and developed marketing materials for Spice Merchants of Northville. My focus was on creating engaging, visually cohesive content that aligned with the brand’s identity while promoting their products and events.</p>
+    </div>
+    <!-- Middle column: Slideshow -->
+    <div class="column slideshow-column">
+        <div id="spice-slideshow-main" class="slideshow-container">
+            <div class="mySlidesSpiceMain fade">
+                <img src="https://i.postimg.cc/N05VwJ6r/88a58b64-df1c-49d1-9c92-91188ef3c21d-rw-600.png" class="lightbox-image" 
+                     style="width:80%" data-fullsize="https://i.postimg.cc/N05VwJ6r/88a58b64-df1c-49d1-9c92-91188ef3c21d-rw-600.png">
+                <div class="text"><p>Flyer</p></div>
+            </div>
+            <div class="mySlidesSpiceMain fade">
+                <img src="https://i.postimg.cc/Kz3dtq4y/20a500ca-6c33-4f42-9068-250b52513215-rw-600.png" class="lightbox-image" 
+                     style="width:80%" data-fullsize="https://i.postimg.cc/Kz3dtq4y/20a500ca-6c33-4f42-9068-250b52513215-rw-600.png">
+                <div class="text"><p>Coupon</p></div>
+            </div>
+            <a class="prev" onclick="plusSlidesSpiceMain(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesSpiceMain(1)">&#10095;</a>
+        </div>
+    </div>
+    <!-- Right column: Slideshow -->
+    <div class="column slideshow-column">
+        <div id="spice-slideshow-square" class="slideshow-container">
+            <div class="mySlidesSpiceSquare fade">
+                <img src="https://i.postimg.cc/xC2PKxdt/Thanksgiving-Instagram-Post-2.png" class="lightbox-image"
+                     style="width:60%" data-fullsize="https://i.postimg.cc/xC2PKxdt/Thanksgiving-Instagram-Post-2.png">
+                <div class="text"><p>Holiday Post</p></div>
+            </div>
+            <div class="mySlidesSpiceSquare fade">
+                <img src="https://i.postimg.cc/vmVkZVJd/Untitled-9.png" class="lightbox-image"
+                     style="width:60%" data-fullsize="https://i.postimg.cc/vmVkZVJd/Untitled-9.png">
+                <div class="text"><p>Event Post</p></div>
+            </div>
+            <a class="prev" onclick="plusSlidesSpiceSquare(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesSpiceSquare(1)">&#10095;</a>
+        </div>
+    </div>
+</div>
+
+<!-- First Row -->
+<h3>Marketing Strategy</h3>
+<div class="two-column-layout">
+    <div class="column image-column">
+        <img src="https://i.postimg.cc/7LnhT4pV/d5d30647.jpg" alt="Product Photography - Spice Merchants Northville"
+             class="lightbox-image strategy-image" data-fullsize="https://i.postimg.cc/7LnhT4pV/d5d30647.jpg">
+        <div class="slideshow-footer">Product Photography - Spice Merchants Northville</div>
+    </div>
+    <div class="column text-column">
+        <h2>Project Description/Goals:</h2>
+        <p><b>1.</b> Expand the store's influence by enhancing the brand's presence on social media platforms and boosting its online traffic.</p>
+        <p><b>2.</b> Drive customer engagement by promoting products like merchandise and seasonal teas.</p>
+    </div>
+</div>
+
+<!-- Second Row -->
+<div class="two-column-layout">
+    <div class="column text-column">
+        <h2>Creative Process and Strategy:</h2>
+        <p><b>1.</b> Develop and execute strategic initiatives to boost engagement on social media platforms, such as:
+            <br/>  • Providing special offers to users who interact with our posts.
+            <br/>  • Sharing enticing recipes featuring ingredients readily available at our store.
+        </p>
+        <p><b>2.</b> Craft engaging content for Facebook, Instagram, and the Fusion Brew website, ensuring it aligns with the brand's unique tone.</p>
+        <p><b>3.</b> Produce high-resolution photographs of Spice Merchant's offerings, and design visually striking and captivating digital content for the brand's social media presence.</p>
+    </div>
+    <div class="column strat-image-column">
+        <img src="https://i.postimg.cc/QM3VtCnC/6bc44868.png" alt="Creative Strategy" class="lightbox-image strategy-image"
+             data-fullsize="https://i.postimg.cc/QM3VtCnC/6bc44868.png">
+    </div>
+</div>
+
+<div class="instagram-embed-container">
+    <div class="instagram-post">
+        <!-- Instagram Embed 1 -->
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CoH1Hdasih6/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+    </div>
+    <div class="instagram-post">
+        <!-- Instagram Embed 2 -->
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CyRau6rNS3h/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+    </div>
+</div>    
+
+<div class="divider-head"></div>
+<br/>
+<iframe src="https://mailchi.mp/271f6006375a/autumn-flavors-await-discover-fall-essentials" width="80%" height="800px" style="border:none;" scrolling="yes"></iframe>
+
+<div class="divider"></div>
+<!-- Fox Hills Section -->
+<div class="three-column-layout" id="foxhill">
+    <div class="column text-column">
+        <h3>Fox Hills Golf and Banquet</h3>
+        <p>At Fox Hills Golf and Banquet Center, I assisted with developing marketing materials, including posters and social media posts. My role involved creating visually appealing designs that aligned with the brand's upscale image and promoting various events.</p>
+    </div>
+    <!-- Middle column: Slideshow -->
+    <div class="column slideshow-column">
+        <div id="foxhill-slideshow-main" class="slideshow-container">
+            <div class="mySlidesFoxhillMain fade">
+                <img src="https://i.postimg.cc/sfYhLkPJ/Heritage-Cares-Posters-Recovered.png" class="lightbox-image"
+                     style="width:80%" data-fullsize="https://i.postimg.cc/sfYhLkPJ/Heritage-Cares-Posters-Recovered.png">
+                <div class="text"><p>Event Flyer</p></div>
+            </div>
+            <div class="mySlidesFoxhillMain fade">
+                <img src="https://i.postimg.cc/PJQv8Df7/Heritage-Cares-Posters-05.png" class="lightbox-image"
+                     style="width:80%" data-fullsize="https://i.postimg.cc/PJQv8Df7/Heritage-Cares-Posters-05.png">
+                <div class="text"><p>Info Flyer</p></div>
+            </div>
+            <a class="prev" onclick="plusSlidesFoxhillMain(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesFoxhillMain(1)">&#10095;</a>
+        </div>
+    </div>
+    <!-- Right column: Slideshow -->
+    <div class="column slideshow-column">
+        <div id="foxhill-slideshow-square" class="slideshow-container">
+            <div class="mySlidesFoxhillSquare fade">
+                <img src="https://i.postimg.cc/85dYhVkK/Untitled-3.png" class="lightbox-image"
+                     style="width:60%" data-fullsize="https://i.postimg.cc/85dYhVkK/Untitled-3.png">
+                <div class="text"><p>Event Post</p></div>
+            </div>
+            <div class="mySlidesFoxhillSquare fade">
+                <img src="https://i.postimg.cc/6qFQGs6p/7f877811-c34d-4c8d-9cef-65f217c3322d.jpg" class="lightbox-image"
+                     style="width:60%" data-fullsize="https://i.postimg.cc/6qFQGs6p/7f877811-c34d-4c8d-9cef-65f217c3322d.jpg">
+                <div class="text"><p>Holiday Post</p></div>
+            </div>
+            <a class="prev" onclick="plusSlidesFoxhillSquare(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesFoxhillSquare(1)">&#10095;</a>
+        </div>
+    </div>
+</div>
+		
+		</div>
+		</div>
+
+		<!-- Drone Content (NEEDS GALLERY FIXED) -->
+		<div id="drone-content" class="content-section" style="display: none;">
+			<div class="page-container">
+			<h2>Aerial Photography</h2>
+			<div class="divider-head"></div>
+			
+			<div class="gallery gallery--carousel">
+				<div class="slides">
+					<img src="https://i.postimg.cc/BbFf4xCQ/Photo-6553602-DJI-2-jpg-4306460-0-202151413384-photo-original.jpg" alt="Slide 1">
+					<img src="https://i.postimg.cc/7YvyXWxC/Remote-Media-File-6553621-0-2021-05-15-12-13-06.jpg" alt="Slide 2">
+					<img src="https://i.postimg.cc/Hkd1188d/Remote-Media-File-6553632-0-2021-05-19-15-52-56.jpg" alt="Slide 3">
+					<img src="https://i.postimg.cc/zBL9Fn6S/Remote-Media-File-6553641-0-2021-06-01-16-57-10.jpg" alt="Slide 4">
+					<img src="https://i.postimg.cc/d1zgHhKM/Remote-Media-File-6553642-0-2021-06-01-16-57-58.jpg" alt="Slide 5">
+					<img src="https://i.postimg.cc/vTfkpGQ4/Remote-Media-File-6553643-0-2021-06-01-17-02-12.jpg" alt="Slide 6">
+					<img src="https://i.postimg.cc/JzxVr7jJ/Remote-Media-File-6553633-0-2021-05-19-15-53-02.jpg" alt="Slide 7">
+					<img src="https://i.postimg.cc/GpbLKSxP/Remote-Media-File-6553646-0-2021-06-01-17-04-22.jpg" alt="Slide 8">
+					<img src="https://i.postimg.cc/rs7y9Vfz/Remote-Media-File-6553649-0-2021-06-08-20-41-52.jpg" alt="Slide 9">
+					<img src="https://i.postimg.cc/9FqQQ9f9/Remote-Media-File-6553663-0-2021-06-28-12-34-02.jpg" alt="Slide 10">
+					<img src="https://i.postimg.cc/RZ7CczKV/Remote-Media-File-6553803-0-2021-08-04-14-54-26.jpg" alt="Slide 11">
+					<img src="https://i.postimg.cc/RZ5V603D/Remote-Media-File-6553667-0-2021-06-28-12-40-52.jpg" alt="Slide 12">
+					<img src="https://i.postimg.cc/6Qh3NNp1/Remote-Media-File-6553834-0-2022-07-17-18-39-44.jpg" alt="Slide 13">
+					<img src="https://i.postimg.cc/t4WJ26Qb/Remote-Media-File-6553832-0-2022-07-17-18-38-10.jpg" alt="Slide 14">
+				</div>
+				<h3> Aerial Lake Photos</h3>
+				<div class="dots">
+					<span class="dot" data-index="0"></span>
+					<span class="dot" data-index="1"></span>
+					<span class="dot" data-index="2"></span>
+					<span class="dot" data-index="3"></span>
+					<span class="dot" data-index="4"></span>
+					<span class="dot" data-index="5"></span>
+					<span class="dot" data-index="6"></span>
+					<span class="dot" data-index="7"></span>
+					<span class="dot" data-index="8"></span>
+					<span class="dot" data-index="9"></span>
+					<span class="dot" data-index="10"></span>
+					<span class="dot" data-index="11"></span>
+					<span class="dot" data-index="12"></span>
+					<span class="dot" data-index="13"></span>
+				</div>
+			</div>
+			
+			<div class="house-carousel">
+				<div class="slides">
+					<img src="https://i.postimg.cc/pT4Mw0z6/Remote-Media-File-6553618-0-2021-05-15-12-11-30.jpg" alt="House 1">
+					<img src="https://i.postimg.cc/76MScRFx/Remote-Media-File-6553813-0-2021-08-23-14-02-52.jpg" alt="House 2">
+					<img src="https://i.postimg.cc/5tpxRqsh/Remote-Media-File-6553811-0-2021-08-23-14-01-38.jpg" alt="House 3">
+					<img src="https://i.postimg.cc/0NSYGjZK/Remote-Media-File-6553814-0-2021-08-23-14-03-10.jpg" alt="House 4">
+					<img src="https://i.postimg.cc/ht687T8q/Remote-Media-File-6553815-0-2021-08-23-14-04-06.jpg" alt="House 5">
+					<img src="https://i.postimg.cc/NMw1dtPJ/Remote-Media-File-6553816-0-2021-08-23-14-04-20.jpg" alt="House 6">
+					<img src="https://i.postimg.cc/Kj83W87N/Remote-Media-File-6553826-0-2022-04-15-12-03-30.jpg" alt="House 7">
+					<img src="https://i.postimg.cc/VNw6TNmC/Remote-Media-File-6553828-0-2022-04-15-12-16-54.jpg" alt="House 8">
+					<img src="https://i.postimg.cc/3RJw8byr/Remote-Media-File-6553857-0-2022-07-20-13-37-20.jpg" alt="House 9">
+					<img src="https://i.postimg.cc/T2sPx0TG/Remote-Media-File-6553859-0-2022-07-20-13-38-36.jpg" alt="House 10">
+				</div>
+				<h3> Aerial House Photos</h3>
+				<div class="dots">
+					<span class="dot" data-index="0"></span>
+					<span class="dot" data-index="1"></span>
+					<span class="dot" data-index="2"></span>
+					<span class="dot" data-index="3"></span>
+					<span class="dot" data-index="4"></span>
+					<span class="dot" data-index="5"></span>
+					<span class="dot" data-index="6"></span>
+					<span class="dot" data-index="7"></span>
+					<span class="dot" data-index="8"></span>
+					<span class="dot" data-index="9"></span>
+				</div>
+			</div>
+
+
+			</div>
+		</div>
+
+		<!-- Motion Content (good) -->
+		<div id="motion-content" class="content-section" style="display: none;">
+			<div class="page-container">
+				<h2>Motion Graphics</h2>
+				<div class="divider-head"></div>
+				<div class="two-column-layout" id="motion">
+					<div class="column text-column">
+						<h3>Animated Logos</h3>
+						<p>Presented here is my portfolio of motion graphics, a compilation that highlights my imaginative and enthralling motion graphics projects. By skillfully fuzing animation, visual effects, and narrative ingenuity, I bring concepts to life, giving rise to dynamic and captivating visual storytelling.</p>
+					</div>
+					<div class="grid-container">
+						<div class="grid-item">
+							<img src="https://i.postimg.cc/0yCDZPh8/LOGO-NEED.gif" class="lightbox-image" alt="Description1" 
+								 data-fullsize="https://i.postimg.cc/0yCDZPh8/LOGO-NEED.gif">
+						</div>
+						<div class="grid-item">
+							<img src="https://i.postimg.cc/6pGZCBcb/21b21687-f793-4b91-bab4-b65b0e5685e0-rw-600.gif" class="lightbox-image" alt="Description2" 
+								 data-fullsize="https://i.postimg.cc/6pGZCBcb/21b21687-f793-4b91-bab4-b65b0e5685e0-rw-600.gif">
+						</div>
+						<div class="grid-item">
+							<img src="https://i.postimg.cc/C552NccN/d16c1cbf-5e0a-4b0a-86d4-be9e3590f873-rw-600.gif" class="lightbox-image" alt="Description3" 
+								 data-fullsize="https://i.postimg.cc/C552NccN/d16c1cbf-5e0a-4b0a-86d4-be9e3590f873-rw-600.gif">
+						</div>
+						<div class="grid-item">
+							<img src="https://i.postimg.cc/3RT7tQGZ/d88601b1-25ef-4395-af14-dfc1fccf55f3-rw-600.gif" class="lightbox-image" alt="Description1" 
+								 data-fullsize="https://i.postimg.cc/3RT7tQGZ/d88601b1-25ef-4395-af14-dfc1fccf55f3-rw-600.gif">
+						</div>
+						<div class="grid-item">
+							<img src="https://i.postimg.cc/3xxqMgLB/SPOTLIGHT-LOGO.gif" class="lightbox-image" alt="Description2" 
+								 data-fullsize="https://i.postimg.cc/3xxqMgLB/SPOTLIGHT-LOGO.gif">
+						</div>
+						<div class="grid-item">
+							<img src="https://i.postimg.cc/nhW06N9F/SPOTLIGHT_LOGO_1.gif" class="lightbox-image" alt="Description3" 
+								 data-fullsize="https://i.postimg.cc/nhW06N9F/SPOTLIGHT_LOGO_1.gif">
+						</div>
+						<div class="grid-item">
+							<img src="https://i.postimg.cc/8P9ZYq61/4a8b49f2-a398-405c-acaa-5d874aa7fd5d-rw-600.gif" class="lightbox-image" alt="Description1" 
+								 data-fullsize="https://i.postimg.cc/8P9ZYq61/4a8b49f2-a398-405c-acaa-5d874aa7fd5d-rw-600.gif">
+						</div>
+						<div class="grid-item">
+							<img src="https://i.postimg.cc/yxD3M6Jn/FOX-LOGO-LOOP.gif" class="lightbox-image" alt="Description2" 
+								 data-fullsize="https://i.postimg.cc/yxD3M6Jn/FOX-LOGO-LOOP.gif">
+						</div>
+						<div class="grid-item">
+							<img src="https://i.postimg.cc/zDssbtJP/6477fd5c.gif" class="lightbox-image" alt="Description3" 
+								 data-fullsize="https://i.postimg.cc/zDssbtJP/6477fd5c.gif">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Coding Content (NEEDS CONTENT ADDED) -->
+		<div id="coding-content" class="content-section" style="display: none;">
+            <div class="page-container">
+			<h2>Web & Interactive Coding</h2>
+			<div class="divider-head"></div>
+
+
+			
+			</div>
+		</div>
+
+    </div>
+
+	
+
+    <!-- JavaScript for Navigation Functionality -->
+	<script src="script.js"></script>
+	<script async src="//www.instagram.com/embed.js"></script>
+</div>
+</body>
+</html>
